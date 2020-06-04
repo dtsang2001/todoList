@@ -1,0 +1,48 @@
+.TodoItem{
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    transition: all .5s;
+}
+
+.TodoItem img{
+    width: 30px;
+    height: 30px;
+}
+
+.TodoItem p{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.complete p{
+    text-decoration: line-through;
+    opacity: .5;
+    /* color: chartreuse; */
+}
+
+.TodoItem button{
+    padding: 5;
+    height: 20px;
+    width: 20px;
+    line-height: 10px;
+    border: 1px solid rgb(58, 58, 58);
+    background-color: #ffffff;
+    opacity: 1;
+    border-radius: 50%;
+    margin: 4px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.4s;
+}
+
+.TodoItem button:hover{
+    background-color: rgb(245, 51, 51);
+    /* border-color: #fff; */
+    color: #fff;
+}
